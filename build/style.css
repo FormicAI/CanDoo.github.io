@@ -29,18 +29,6 @@
   }
 }
 
-.img-shadow{
-  border-radius: 5px;  
-  border: 1px solid rgb(214, 179, 108); 
-  box-shadow: rgba(214, 179, 108) 15px 10px 15px;
-}
-
-.dark .dark\:img-shadow{
-  border-radius: 5px;  
-  border: 1px solid rgb(214, 179, 108); 
-  box-shadow: rgba(214, 179, 108) 15px 10px 15px;
-}
-
 .fadeIn {
   animation-name: fadeIn;
 }
@@ -958,8 +946,8 @@ body{
 .h-\[400px\]{
   height: 400px;
 }
-.h-\[450px\]{
-  height: 450px;
+.h-\[550px\]{
+  height: 550px;
 }
 .h-\[38px\]{
   height: 38px;
@@ -1039,8 +1027,8 @@ body{
 .max-w-\[350px\]{
   max-width: 350px;
 }
-.max-w-\[450px\]{
-  max-width: 450px;
+.max-w-\[550px\]{
+  max-width: 550px;
 }
 .max-w-\[510px\]{
   max-width: 510px;
@@ -1640,6 +1628,10 @@ body{
 .hover\:bg-primary:hover{
   --tw-bg-opacity: 1;
   background-color: rgb(0 51 102 / var(--tw-bg-opacity));
+}
+.hover\:bg-secondary:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgb(214 179 108 / var(--tw-bg-opacity));
 }
 .hover\:bg-opacity-100:hover{
   --tw-bg-opacity: 1;
@@ -2341,6 +2333,5 @@ body{
     padding-left: 3rem;
     padding-right: 3rem;
   }
-  
 }
 
